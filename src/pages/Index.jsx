@@ -4,14 +4,14 @@ const Index = () => {
   return (
     <Container maxW="container.xl" p={0}>
       {/* Header */}
-      <Box bg="gray.800" color="white" py={4}>
+      <Box bg="#003366" color="white" py={4}>
         <Heading as="h1" size="xl" textAlign="center">
           Financial Times
         </Heading>
       </Box>
 
       {/* Navigation Bar */}
-      <Box bg="gray.700" color="white" py={2}>
+      <Box bg="#004080" color="white" py={2}>
         <HStack spacing={8} justify="center">
           <Link href="#" _hover={{ textDecoration: "none", color: "gray.300" }}>Home</Link>
           <Link href="#" _hover={{ textDecoration: "none", color: "gray.300" }}>Markets</Link>
@@ -93,7 +93,7 @@ const Index = () => {
       </Flex>
 
       {/* Footer */}
-      <Box bg="gray.800" color="white" py={4} mt={8}>
+      <Box bg="#003366" color="white" py={4} mt={8}>
         <Flex justify="center" spacing={8}>
           <Link href="#" _hover={{ textDecoration: "none", color: "gray.300" }}>Contact Information</Link>
           <Link href="#" _hover={{ textDecoration: "none", color: "gray.300" }}>Privacy Policy</Link>
